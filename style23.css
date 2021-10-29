@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+header{
+    height: 500px;
+    background-image: url(summy2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+.top_nav{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    padding-top: 50px;
+}
+.top_nav ul li{
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+}
+.top_nav{
+    background-color: rgba(109, 109, 109, 0.568);
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.479) !important;
+    color: rgba(124, 124, 124, 0.623) !important;
+}
+header .nav-link{
+    color: #fff !important;
+}
+header h1{
+    margin-top: 100px;
+    color: #fff;
+}
+header h1 span{
+    color: rgb(0, 110, 255);
+}
+#section2{
+    background-color: rgba(0, 0, 0, 0.548);
+    padding: 50px;
+}
+#section2 .divs{
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+}
+#section2 h2{
+    color: rgb(0, 0, 0);
+    margin:10px 0;
+}
+#section2 .divs:hover{
+    background-color: rgb(109, 109, 109);
+    color: #000;
+}
+#section3{
+    padding: 50px;
+    background-color: black;
+}
+.nav-tabs{
+    justify-content: center;
+    border: none !important;
+}
+#section3 .nav-link{
+    color: rgb(134, 134, 134) !important;
+}
+#section3 .active{
+    background-color: transparent !important;
+    color: gray !important;
+}
+.item{
+    height: 400px;
+}
+.img{
+    border-radius: 50%;
+}
+#section4{
+    background-color: rgb(95, 95, 95);
+    padding: 20px;
+    height: 400px;
+}
+.main_div .div img{
+    height: 65px;
+    width: 50px;
+    background-color: gray;
+    border-radius: 50%;
+}
+.main_div{
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    position: relative;
+    padding: 30px;
+}
+.main_div .div{
+    position: absolute;
+    bottom: -70px;
+    height: 100px;
+}
